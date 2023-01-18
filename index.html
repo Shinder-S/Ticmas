@@ -14,17 +14,17 @@
             <div class="logo">
                 <a href="#">Angel</a>
             </div>
-            <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id="navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#welcome" onclick="selected()">Welcome</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about" onclick="selected()">About Me</a></li>
-                    <li class="nav-item"><a href="#skills" onclick="selected()">Skills</a></li>
-                    <li class="nav-item"><a href="#curriculum" onclick="selected()">Curriculum</a></li>
-                    <li class="nav-item"><a href="#briefcase" onclick="selected()">Briefcase</a></li>
-                    <li class="nav-item"><a href="#contact" onclick="selected()">Contact Us</a></li>
+            <nav id="navbar">
+                <ul>
+                    <li><a class="nav-link" href="#welcome" onclick="selected()">Welcome</a></li>
+                    <li><a class="nav-link" href="#about" onclick="selected()">About Me</a></li>
+                    <li><a href="#skills" onclick="selected()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="selected()">Curriculum</a></li>
+                    <li><a href="#briefcase" onclick="selected()">Briefcase</a></li>
+                    <li><a href="#contact" onclick="selected()">Contact Us</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive" onclick="selected()">
+            <div class="nav-responsive" onclick="showHideMenu()">
                 <i class="fa-solid fa-bars"></i>    
             </div>
         </header>
@@ -33,7 +33,7 @@
     <section id="welcome" class="welcome">
         <div class="container-banner">
             <div class="container-img">
-                <img src="img/" alt="">
+                <img src="img/profile.jpg" >
             </div>
             <h1>Angel Harris</h1>
             <h2>Software Engineer - Expert UI/UX</h2>
@@ -129,5 +129,284 @@
         </div>
     </section>
     
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team work</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="progress-bar">
+                            <div class="progress">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="left-col">
+                    <h3>Education</h3>
+                    <div class="left-item">
+                        <h4>Art & Media</h4>
+                        <span class="home">University of Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid eaque possimus aperiam est reprehenderit? 
+                            Tempore, mollitia libero magnam consequuntur ratione eveniet vitae, voluptas sed debitis facilis a perferendis quos.</p>
+                        </div>
+                        <div class="conector">
+                            <div class="conectorL"></div>
+                        </div>
+                    </div>
+                    <div class="left-col">
+                        <h3>Education</h3>
+                        <div class="left-item">
+                            <h4>Art & Media</h4>
+                            <span class="home">University of Oxford</span>
+                            <span class="date">2005 - 2008</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid eaque possimus aperiam est reprehenderit? 
+                                Tempore, mollitia libero magnam consequuntur ratione eveniet vitae, voluptas sed debitis facilis a perferendis quos.</p>
+                            </div>
+                            <div class="conector">
+                                <div class="conectorL"></div>
+                            </div>
+                        </div>
+                    <div class="left-col">
+                        <h3>Education</h3>
+                        <div class="left-item">
+                            <h4>Art & Media</h4>
+                            <span class="home">University of Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid eaque possimus aperiam est reprehenderit? 
+                            Tempore, mollitia libero magnam consequuntur ratione eveniet vitae, voluptas sed debitis facilis a perferendis quos.</p>
+                    </div>
+                    <div class="conector">
+                        <div class="conectorL"></div>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <h3>Work Experience</h3>
+                    <div class="right-item">
+                        <h4>Frontend Developer</h4>
+                        <span class="home">Name of Company</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod facere, eius exercitationem illum necessitatibus,
+                            quidem dicta ipsa cumque eos est repellendus nostrum eveniet error autem, iusto ducimus? Fugiat, labore hic.</p>
+                        <div class="conectorR">
+                            <div class="conectorR"></div>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        <h4>Frontend Developer</h4>
+                        <span class="home">Name of Company</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod facere, eius exercitationem illum necessitatibus,
+                            quidem dicta ipsa cumque eos est repellendus nostrum eveniet error autem, iusto ducimus? Fugiat, labore hic.</p>
+                        <div class="conectorR">
+                            <div class="conectorR"></div>
+                        </div>
+                    </div>
+                    <div class="right-item">
+                        <h4>Frontend Developer</h4>
+                        <span class="home">Name of Company</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod facere, eius exercitationem illum necessitatibus,
+                            quidem dicta ipsa cumque eos est repellendus nostrum eveniet error autem, iusto ducimus? Fugiat, labore hic.</p>
+                        <div class="conectorR">
+                            <div class="conectorR"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="briefcase" class="briefcase">
+        <div class="container-section">
+            <h2>Briefcase</h2>
+            <div class="gallery">
+                <div class="proyect">
+                    <img src="img/P1.jpg.avif" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/P2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/P3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/P4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/P5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+                <div class="proyect">
+                    <img src="img/P6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container-section">
+            <h2>CONTACT US</h2>
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Topic">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <div class="col">
+                    <img src="img/location.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Vigil 393, Tandil Argentina. 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call us: 2494 - 538750
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: angel@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#welcome" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="network">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
