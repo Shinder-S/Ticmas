@@ -22,15 +22,15 @@ function effectSkills(){
     if(distance_skills >= 300){
         let ability = document.getElementsByClassName("progress");
         ability[0].classList.add("javascript");
-        ability[0].classList.add("htmlcss");
-        ability[0].classList.add("photoshop");
-        ability[0].classList.add("wordpress");
-        ability[0].classList.add("drupal");
-        ability[0].classList.add("comunication");
-        ability[0].classList.add("work");
-        ability[0].classList.add("creativity");
-        ability[0].classList.add("dedication");
-        ability[0].classList.add("proyect");
+        ability[1].classList.add("htmlcss");
+        ability[2].classList.add("photoshop");
+        ability[3].classList.add("wordpress");
+        ability[4].classList.add("drupa");
+        ability[5].classList.add("comunication");
+        ability[6].classList.add("work");
+        ability[7].classList.add("creativity");
+        ability[8].classList.add("dedication");
+        ability[9].classList.add("management");
     }
 }
 
